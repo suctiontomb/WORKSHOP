@@ -2,8 +2,8 @@ FROM python:3.14-slim
 
 WORKDIR /app
 
-COPY requiremnts.txt .
-RUN pip isntall -r requiremnts.txt
+COPY requirements.txt .
+RUN pip install -r requirements.txt
 
 COPY . .
 
